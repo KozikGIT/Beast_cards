@@ -1,0 +1,73 @@
+body
+{
+    background-color: blanchedalmond;
+    margin:0;
+    padding: 0;
+    
+}
+.additional_area
+{
+    background-color: aqua;
+}
+#game
+{
+    background-color: chocolate;
+    min-width: 90%;
+
+}
+.player_area
+{
+    background-color: brown;
+}
+#play_area{
+    display: flex;
+    flex-wrap:wrap;
+
+    
+    
+}
+.area
+{
+    flex:35%;
+    height:20em;
+    display: grid;
+    border: 2px solid black;
+ 
+}
+
+
+
+.draggable
+{
+    margin-right: 2%;
+}
+
+.dragging
+{
+    opacity: 0.5;
+}
+
+.player_area
+{
+    min-height: 16em;
+}
+#all
+{
+    display: flex;
+}
+#bar
+{
+    width: 20%;
+    background-color: aquamarine;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttonStart,#open_card_roll_button,#superpower_card_roll_button
+{
+
+    width: 70%;
+    height: 3%;
+}
